@@ -25,9 +25,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          # Required on first run: repo had no Pages site, so configure-pages failed with HTTP 404.
-          enablement: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
