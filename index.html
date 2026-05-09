@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Heidi Retreat · 2026 Anniversary</title>
+  <meta name="description" content="The Heidi Retreat — a cottage-first anniversary plan for June 2026 at Eagle Lake." />
+  <meta property="og:title" content="The Heidi Retreat · 2026 Anniversary" />
+  <meta property="og:description" content="Lake, food, fire, love — a slow plan for June 12–22." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="hero" role="banner">
+    <div class="hero__inner">
+      <p class="hero__eyebrow" id="plan-eyebrow"></p>
+      <h1 class="hero__title" id="plan-title"></h1>
+      <p class="hero__subtitle" id="plan-subtitle"></p>
+      <p class="hero__tagline" id="plan-tagline"></p>
+      <div
+        class="hero__gallery"
+        id="plan-hero-gallery"
+        role="group"
+        aria-label="Lake and cottage inspiration"
+      ></div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <span class="hero__scroll-line"></span>
+    </div>
+  </header>
+
+  <main id="main" class="main">
+    <div class="main__inner">
+      <ol class="timeline" id="plan-sections" aria-label="Plan sections"></ol>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__note" id="plan-footer"></p>
+  </footer>
+
+  <script src="plan-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
